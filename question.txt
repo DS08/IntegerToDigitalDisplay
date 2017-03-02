@@ -1,0 +1,30 @@
+Question 1:
+ 
+Write a program to convert an integer to digital screen number. 
+Input (Q1.in) 
+First line will be number of test cases. 
+Each input set will start with an integer [x], where 0 < x < 9999. 
+Where Single Digit Digital Screen is assumed to be of like -  
+ _ 
+|_| 
+|_| 
+Only characters allowed for creating a number are UNDERSCORE (_) SPACE ( ) & PIPE ( | )  
+Output (Q1.out) 
+First line will be number of test cases. 
+For each test set, there should be a one line output containing the LED screen display. There must be a single space between the two integers which are converted as digital number 
+Sample Input  - 3                            
+0 
+4 
+340   
+Sample Output – 3  
+Case#1  
+ _ 
+| | 
+|_| 
+Case#2  
+|_| 
+| 
+Case#3  
+_       _ 
+_| |_| | | 
+_|   | |_|  
